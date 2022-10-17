@@ -7,16 +7,16 @@
 
     <fragment
         android:id="@+id/navigation_menu"
-        android:name="com.vzudkin.pizzaapp.view.menu.ui.products.MenuFragment"
+        android:name="com.vzudkin.pizzaapp.presenation.menu.ui.products.MenuFragment"
         tools:layout="@layout/fragment_menu" />
 
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="com.vzudkin.pizzaapp.view.menu.ui.profile.ProfileFragment"
+        android:name="com.vzudkin.pizzaapp.presenation.menu.ui.profile.ProfileFragment"
         tools:layout="@layout/fragment_profile" />
 
     <fragment
         android:id="@+id/navigation_basket"
-        android:name="com.vzudkin.pizzaapp.view.menu.ui.basket.BasketFragment"
+        android:name="com.vzudkin.pizzaapp.presenation.menu.ui.basket.BasketFragment"
         tools:layout="@layout/fragment_basket" />
 </navigation>
